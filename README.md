@@ -1,2 +1,15 @@
-# RandomAnimal
-Node app that using Telegram bot API to share image, gif, and video about cute animal &lt;3
+Installation
+============
+
+- Git clone this first
+
+- Install all module :
+`npm install`
+  
+- Edit the `.env` file
+`BOT_TOKEN=YOUR_TOKEN`
+  
+- Run
+`npm start`
+  
+  
