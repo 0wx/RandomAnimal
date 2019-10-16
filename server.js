@@ -177,14 +177,14 @@ Bot.hears("🐱 Cat", ctx => {
   request(options, function(err, res, body) {
     let json = JSON.parse(body);
     //  console.log(json);
-    var catlink = json.file;
-    var extcatlink = path.extname(catlink);
-    if (extcatlink == ".mp4") {
-      ctx.replyWithVideo(catlink);
-    } else if (extcatlink == ".gif") {
-      ctx.replyWithAnimation(catlink);
+    var animallink = json.file;
+    var extanimallink = path.extname(animallink);
+    if (extanimallink == ".mp4") {
+      ctx.replyWithVideo(animallink);
+    } else if (extanimallink == ".gif") {
+      ctx.replyWithAnimation(animallink);
     } else {
-      ctx.replyWithPhoto(catlink);
+      ctx.replyWithPhoto(animallink);
     }
   });
 });
@@ -220,14 +220,14 @@ Bot.hears("🐦 Bird", ctx => {
   };
   request(options, function(err, res, body) {
     console.log(body);
-    var catlink = "http://random.birb.pw/img/" + body;
-    var extcatlink = path.extname(catlink);
-    if (extcatlink == ".mp4") {
-      ctx.replyWithVideo(catlink);
-    } else if (extcatlink == ".gif") {
-      ctx.replyWithAnimation(catlink);
+    var animallink = "http://random.birb.pw/img/" + body;
+    var extanimallink = path.extname(animallink);
+    if (extanimallink == ".mp4") {
+      ctx.replyWithVideo(animallink);
+    } else if (extanimallink == ".gif") {
+      ctx.replyWithAnimation(animallink);
     } else {
-      ctx.replyWithPhoto(catlink);
+      ctx.replyWithPhoto(animallink);
     }
   });
 });
@@ -269,14 +269,14 @@ Bot.hears("🦎 Lizard", ctx => {
   request(options, function(err, res, body) {
     let json = JSON.parse(body);
     //  console.log(json);
-    var catlink = json.url;
-    var extcatlink = path.extname(catlink);
-    if (extcatlink == ".mp4") {
-      ctx.replyWithVideo(catlink);
-    } else if (extcatlink == ".gif") {
-      ctx.replyWithAnimation(catlink);
+    var animallink = json.url;
+    var extanimallink = path.extname(animallink);
+    if (extanimallink == ".mp4") {
+      ctx.replyWithVideo(animallink);
+    } else if (extanimallink == ".gif") {
+      ctx.replyWithAnimation(animallink);
     } else {
-      ctx.replyWithPhoto(catlink);
+      ctx.replyWithPhoto(animallink);
     }
   });
 });
@@ -293,16 +293,16 @@ Bot.hears("🦉 Owl", ctx => {
   request(options, function(err, res, body) {
     let json = JSON.parse(body);
     //  console.log(json);
-    var catlink = json.image;
-    var extcatlink = path.extname(catlink);
-    if (extcatlink == ".mp4") {
-      ctx.replyWithVideo(catlink);
-    } else if (extcatlink == ".gif") {
-      ctx.replyWithAnimation(catlink);
-    } else if (extcatlink == ".gifv") {
-      ctx.replyWithAnimation(catlink);
+    var animallink = json.image;
+    var extanimallink = path.extname(animallink);
+    if (extanimallink == ".mp4") {
+      ctx.replyWithVideo(animallink);
+    } else if (extanimallink == ".gif") {
+      ctx.replyWithAnimation(animallink);
+    } else if (extanimallink == ".gifv") {
+      ctx.replyWithAnimation(animallink);
     } else {
-      ctx.replyWithPhoto(catlink);
+      ctx.replyWithPhoto(animallink);
     }
   });
 });
@@ -325,14 +325,14 @@ Bot.hears("🦆 Duck", ctx => {
   request(options, function(err, res, body) {
     let json = JSON.parse(body);
     //  console.log(json);
-    var catlink = json.url;
-    var extcatlink = path.extname(catlink);
-    if (extcatlink == ".mp4") {
-      ctx.replyWithVideo(catlink);
-    } else if (extcatlink == ".gif") {
-      ctx.replyWithAnimation(catlink);
+    var animallink = json.url;
+    var extanimallink = path.extname(animallink);
+    if (extanimallink == ".mp4") {
+      ctx.replyWithVideo(animallink);
+    } else if (extanimallink == ".gif") {
+      ctx.replyWithAnimation(animallink);
     } else {
-      ctx.replyWithPhoto(catlink);
+      ctx.replyWithPhoto(animallink);
     }
   });
 });
